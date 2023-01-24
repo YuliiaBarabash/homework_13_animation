@@ -6,12 +6,12 @@ body {
 }
 
 div {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   display: inline-block;
   margin: 1rem;
-  animation: pulsate 3s ease-in-out infinite;
+  animation: pulsate 2.5s ease-in-out infinite;
 }
 
 @keyframes pulsate {
@@ -39,11 +39,11 @@ div:nth-child(0) {
 }
 
 div:nth-child(1) {
-  animation-delay: 0.1s;
+  animation-delay: 0.2s;
 }
 
 div:nth-child(2) {
-  animation-delay: 0.3s;
+  animation-delay: 0.4s;
 }
 
 div:nth-child(3) {
@@ -55,9 +55,5 @@ div:nth-child(4) {
 }
 
 div:nth-child(5) {
-  animation-delay: 0.9s;
-}
-
-div:nth-child(6) {
   animation-delay: 1s;
 }
