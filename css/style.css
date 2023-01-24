@@ -1,0 +1,63 @@
+body {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 1rem;
+  animation: pulsate 3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0%,
+  100% {
+    transform: scale(0.2);
+    background-color: #d59aae;
+  }
+
+  30% {
+   background-color: #30ffb7;
+  }
+
+  50% {transform: scale(1);
+    background-color: #5878e0;
+  }
+
+  100% {
+    background-color: #a88ec0;
+  }
+}
+
+div:nth-child(0) {
+  animation-delay: 0s;
+}
+
+div:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+div:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+div:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+div:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+div:nth-child(5) {
+  animation-delay: 0.9s;
+}
+
+div:nth-child(6) {
+  animation-delay: 1s;
+}
