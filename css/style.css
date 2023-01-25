@@ -5,7 +5,7 @@ body {
   align-items: center;
 }
 
-div {
+.dot {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -15,21 +15,22 @@ div {
 }
 
 @keyframes pulsate {
-  0%,
-  100% {
+  0% {
     transform: scale(0.2);
     background-color: #d59aae;
   }
 
   30% {
-   background-color: #30ffb7;
+    background-color: #30ffb7;
   }
 
-  50% {transform: scale(1);
+  50% {
+    transform: scale(1);
     background-color: #5878e0;
   }
 
   100% {
+    transform: scale(0.2);
     background-color: #a88ec0;
   }
 }
