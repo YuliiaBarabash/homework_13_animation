@@ -11,10 +11,10 @@ body {
   border-radius: 50%;
   display: inline-block;
   margin: 1rem;
-  animation: pulsate 2.5s ease-in-out infinite;
+  animation: loading 2.5s ease-in-out infinite;
 }
 
-@keyframes pulsate {
+@keyframes loading {
   0% {
     transform: scale(0.2);
     background-color: #d59aae;
